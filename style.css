@@ -1,0 +1,314 @@
+body{
+    background-image: url(./userimage/bodybackgroundimg.png);
+    background-size: 100% 100%;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+a{
+    text-decoration: none;
+}
+.form-container{
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+    border: 2px solid black;
+    padding: 15px 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 2px white;
+    background-color: rgba(0, 0, 0, 0.534);
+    
+}
+
+  .form-container label{
+    color:white;
+    font-size:18px;
+  }
+  .dont{
+    font-size:15px;
+  }
+
+.form-containers{
+    box-shadow: 2px 2px 13px 2px ;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 80%;
+    margin: auto;
+}
+.table-row{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.table-row th{
+    border: 2px solid white;
+}
+.logo-banner{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.logo-links i{
+    font-size: 25px;
+    color: white;
+    transform: rotateX(10);
+}
+.logo-links{
+    justify-content: end;
+    padding-right: 20px;
+    gap: 8px;
+}
+/* .bi-facebook{
+    color: blue;
+   
+}
+.bi-whatsapp{
+    color: rgb(8, 119, 8);
+}
+.bi-instagram{
+    color: blueviolet;
+} */
+ 
+.logo-banner div{
+
+    display: flex;
+   
+    width: 32%;
+}
+.logo-name{
+    font-size: 29px;
+
+    font-family: serif;
+    font-weight: bold;
+    justify-content: center;
+
+    
+}
+.logo-address a{
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.logo-address{
+    gap: 13px;
+    flex-wrap: wrap;
+}
+.navbar-toggler{
+    margin-left: auto;
+    
+}
+
+.bi-list{
+    background-color: white;
+    color: black;
+    z-index: 4;
+    padding: 3px 6px;
+}
+
+
+.nav-link{
+    font-size: 18px;
+    text-transform: uppercase;
+
+    
+}
+.navbar-brand{
+    font-size: 22px;
+}
+.navbar-nav{
+    gap: 10px;
+}
+.navbar{
+    background-color: rgba(33, 33, 31, 0.621);
+    /* font-style: italic; */
+    /* position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 3; */
+    
+}
+.nav-item .nav-link{
+    color: white;
+    text-decoration: none;
+
+}
+.nav-item{
+    transition: 1s;
+}
+.nav-item:hover{
+    background-color:white ;
+    
+}
+.nav-item .nav-link:hover{
+    color: black;
+}
+.nav-login{
+    color: white;
+    background-image: linear-gradient(to bottom right, red, rgba(255, 42, 0, 0.416));
+    transition: 1s;
+    border:none;
+}
+.nav-login:hover{
+    background-image: linear-gradient(to bottom right, rgb(99, 3, 3), rgb(143, 7, 7));
+    color:white;
+}
+.btn-danger{
+    color: white;
+    background-image: linear-gradient(to bottom right, red, rgb(109, 21, 21));
+    transition: 1s;
+    border:none;
+}
+.btn-danger:hover{
+    background-image: linear-gradient(to bottom right, rgb(114, 6, 6), rgb(104, 4, 4));
+    color:white;
+}
+.carousel-item{
+    height: 600px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.card img{
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card{
+    width: 300px;
+   transition-duration: 0.5s;
+    /* background-image: linear-gradient(to bottom right,black, white); */
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: 2px 2px 8px 2px white; 
+    transform: translateY(-10px);
+}
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white; /* Gold color */
+    text-transform: uppercase;
+    
+}
+
+
+footer{
+    background-image: url(userimage/footerbgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption h1{
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bolder;
+    color: white;
+ 
+ }
+  .carousel-caption p{   
+    font-style: italic;
+     font-size: 28px;
+     color: white;
+ }
+.carousel-caption{
+    position: absolute;
+    top: 60%;
+    right: unset;
+    bottom: unset;
+    left:10%;
+    background-color: aqua;
+}
+/* tickets */
+.tickets{
+    background-color:black;
+
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+   transition-duration: 0.3s;
+    cursor: pointer;
+    width: 87px;
+}
+.tickets:hover{
+    background-color:grey;
+    
+}
+.screen{
+    background-image: linear-gradient(to bottom right, black, grey);
+    padding: 50px 00px;
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+}
+input:focus{
+     outline: none;
+ }
+button:focus{
+     outline: none;
+ }
+.footer-link-categories{
+  
+  color: white;
+    font-weight: bold;
+    
+}
+footer section div a i{
+    font-size: 24px;
+}
+/* .animate__animated.animate__fadeIn{
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    
+} */
+
+ /* Style for disabled checkboxes */
+ .tickets:has(input:disabled) {
+    background-color: #aaa;  /* Change label color to light gray */
+    cursor: not-allowed;  /* Ensure the label also shows "not-allowed" cursor */
+}
+.booked-color{
+  background-color:#aaa;
+  height:20px;
+  width: 30px;
+  margin-left:7px;
+} 
+.available-color{
+  background-color:black;
+  height:20px;
+  width: 30px;
+  margin-left:7px;
+}
+.bodybooking{
+    background-color: white;
+    color: black;
+}
+#submitBtn{
+    background-image: linear-gradient(to bottom right, red, rgb(103, 11, 11));
+}
+label{
+    font-size: 18px;
+}
+
+ @media screen and (max-width: 500px) {
+    .form-containers{
+        width:95%
+    }
+}
+@media screen and (max-width: 500px) {
+    .form-container{
+    width: 90%;
+    
+  }
+}
